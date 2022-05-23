@@ -52,9 +52,19 @@
     </header>
     <!-- Main -->
     <main>
+
+    <div class="row">
         @foreach ($comic as $product)
-            <p>{{ $product['title'] }}</p>
+            <div class="col card">
+                <div class="img-container">
+                    <img src="{{$product['thumb']}}" alt="comic image" class="img">
+                </div>
+                
+                <h6 class="img-title">{{ $product['series'] }}</h6> 
+            </div>
         @endforeach
+    </div>
+        
     </main>
     <!-- Footer -->
 </body>

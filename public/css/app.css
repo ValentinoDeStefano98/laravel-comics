@@ -5,24 +5,45 @@
 
 .jumbotron {
   height: 300px;
-  background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
+  background-image: url(/images/jumbotron.jpg?9b3ac9ec673a8ec0c2c6eef1f6ea6bb4);
 }
 
 ul {
   display: flex;
   list-style-type: none;
 }
-
 ul li {
   padding: 0 10px;
 }
-
 ul li a {
   text-decoration: none;
   padding: 5px;
 }
-
 ul li:hover {
   background-color: lightblue;
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 70%;
+}
+.row .card {
+  width: 16.6666666667%;
+}
+.row .card .img {
+  max-width: 90%;
+}
+
+.img-container {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.img-title {
+  color: gray;
+  text-transform: uppercase;
+}
