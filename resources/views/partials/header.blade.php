@@ -3,7 +3,7 @@
             <img src="{{ asset('images/dc-logo.png') }}" alt="Logo" class="logo">
             <ul>
                 <li>
-                    <a href="#">Characters</a>
+                    <a href="{{ route('home') }}">Characters</a>
                 </li>
                 <li>
                     <a href="{{ route('comics') }}">Comics</a>

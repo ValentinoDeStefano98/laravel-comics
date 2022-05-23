@@ -1,5 +1,7 @@
 @extends('layout.layout')
 
+@section('title', 'Comics')
+
 @section('content')
     <div class="row">
         @foreach ($comic as $product)
