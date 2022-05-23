@@ -16,3 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+//rotta comics
+//url di riferimento: localhost:8080/comics
+Route::get('/comics', function () {
+    return view('comics');
+});
