@@ -21,4 +21,4 @@ Route::get('/', function () {
 //url di riferimento: localhost:8080/comics
 Route::get('/comics', function () {
     return view('comics');
-});
+})->name('comics');

@@ -1,0 +1,23 @@
+header {
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+ul li {
+  padding: 0 10px;
+}
+
+ul li a {
+  text-decoration: none;
+  padding: 5px;
+}
+
+ul li:hover {
+  background-color: lightblue;
+}
+
