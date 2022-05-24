@@ -4,8 +4,11 @@
 
 @section('content')
     
+    
     <div class="comics-container">
-        
+        <div class="buttonContainer">
+            <span class="currentSeries">Current Series</span>
+        </div>
         <div class="row resize">
             @foreach ($comic as $product)
                 <div class="col card">
@@ -13,7 +16,7 @@
                         <img src="{{$product['thumb']}}" alt="comic image" class="img">
                     </div>
                     <div class="title-container">
-                        <h6 class="img-title">{{ $product['series'] }}</h6> 
+                        <h5 class="img-title">{{ $product['series'] }}</h5> 
                     </div>
                     
                 </div>

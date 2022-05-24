@@ -36,21 +36,6 @@
   margin-left: 5px;
 }
 
-.currentSeries {
-  display: inline-block;
-  margin-top: 280px;
-  color: white;
-  background-color: #0282F9;
-  padding: 10px;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-.buttonContainer {
-  width: 80%;
-  margin: 0 auto;
-}
-
 .ul-header {
   display: flex;
   list-style-type: none;
@@ -146,6 +131,22 @@ html {
   width: 80%;
   margin: 0 auto;
   text-align: center;
+}
+
+.currentSeries {
+  position: absolute;
+  top: 460px;
+  display: inline-block;
+  color: white;
+  background-color: #0282F9;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.buttonContainer {
+  width: 80%;
+  margin: 0 auto;
 }
 
 .ul-footer {

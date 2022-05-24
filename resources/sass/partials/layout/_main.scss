@@ -6,8 +6,7 @@
         width: calc(100%/6);
         .img{
             max-width: 90%;
-        }
-        
+        }   
     }
 }
 
@@ -16,10 +15,10 @@
 }
 
 .img-container{
-        width: 150px;
-        height: 150px;
-        overflow: hidden;
-        margin-bottom: 10px;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    margin-bottom: 10px;
 }
 
 .title-container{
@@ -61,6 +60,22 @@
     width: 80%;
     margin: 0 auto;
     text-align: center;
+}
+
+.currentSeries{
+    position: absolute;
+    top: 460px;
+    display: inline-block;
+    color: white;
+    background-color: #0282F9;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.buttonContainer{
+    width: 80%;
+    margin: 0 auto;
 }
 
 

@@ -44,8 +44,6 @@
         </div>
     </div>
     <div class="jumbotron">
-        <div class="buttonContainer">
-            <span class="currentSeries">Current Series</span>
-        </div>
+        
     </div>
 </header>
