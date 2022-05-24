@@ -47,3 +47,15 @@ ul li:hover {
   color: gray;
   text-transform: uppercase;
 }
+
+.main-bottom-container {
+  background-color: #0082F9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-bottom-card {
+  display: flex;
+  align-items: center;
+}

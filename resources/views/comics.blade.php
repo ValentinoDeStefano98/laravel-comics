@@ -14,4 +14,26 @@
             </div>
         @endforeach
     </div>
+    <div class="main-bottom-container">
+        <div class="main-bottom-card">
+            <img src="{{ asset('images/buy-comics-digital-comics.png') }}" alt="Logo" class="logo">
+            <h3>Digital comics</h3>
+        </div>
+        <div class="main-bottom-card">
+            <img src="{{ asset('images/buy-comics-merchandise.png') }}" alt="Logo" class="logo">
+            <h3>DC Merchandise</h3>
+        </div>
+        <div class="main-bottom-card">
+            <img src="{{ asset('images/buy-comics-subscriptions.png') }}" alt="Logo" class="logo">
+            <h3>Subscriptions</h3>
+        </div>
+        <div class="main-bottom-card">
+            <img src="{{ asset('images/buy-comics-shop-locator.png') }}" alt="Logo" class="logo">
+            <h3>Comic shop locator</h3>
+        </div>
+        <div class="main-bottom-card">
+            <img src="{{ asset('images/buy-dc-power-visa.png') }}" alt="Logo" class="logo">
+            <h3>DC Power Visa</h3>
+        </div>
+    </div>
 @endsection
