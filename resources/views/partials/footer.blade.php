@@ -1,7 +1,7 @@
 <footer>
     <div class="footer-top-container">
         <div class="footer-top-left">
-            <div>
+            <div class="list-container">
                 <div>
                     <h4>DC Comics</h4>
                     <ul class="ul-footer">
@@ -16,14 +16,14 @@
                 </div>
                 <div>
                     <h4>Shop</h4>
-                    <ul>
+                    <ul class="ul-footer">
                         <li>Shop DC</li>
                         <li>Shop DC Collectibles</li>
                     </ul>
                 </div>
                 <div>
                     <h4>DC</h4>
-                    <ul>
+                    <ul class="ul-footer">
                         <li>Terms of Use</li>
                         <li>Privacy policy (New)</li>
                         <li>Ad Choices</li>
@@ -39,7 +39,7 @@
                 </div>
                 <div>
                     <h4>Sites</h4>
-                    <ul>
+                    <ul class="ul-footer">
                         <li>DC</li>
                         <li>MAD Magazine</li>
                         <li>DC Kids</li>
@@ -51,7 +51,7 @@
 
         </div>
         <div class="footer-top-right">
-
+            <img src="{{ asset('images/dc-logo-bg.png') }}" alt="">
         </div>
 
     </div>

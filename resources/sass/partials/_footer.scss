@@ -1,4 +1,19 @@
 .ul-footer{
     list-style-type: none;
-    color: red;
+}
+
+.list-container{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.footer-top-right{
+    height: 400px;
+}
+
+.footer-top-container{
+    display: flex;
+    justify-content: space-between;
 }
