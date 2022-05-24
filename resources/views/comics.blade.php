@@ -10,15 +10,16 @@
             <span class="currentSeries">Current Series</span>
         </div>
         <div class="row resize">
-            @foreach ($comic as $product)
+            @foreach ($comics as $key => $comic)
                 <div class="col card">
-                    <div class="img-container">
-                        <img src="{{$product['thumb']}}" alt="comic image" class="img">
-                    </div>
-                    <div class="title-container">
-                        <h5 class="img-title">{{ $product['series'] }}</h5> 
-                    </div>
-                    
+                    <a href="{{ route ('comic', ['id' => $key] ) }}">
+                        <div class="img-container">
+                            <img src="{{$comic['thumb']}}" alt="comic image" class="img">
+                        </div>
+                        <div class="title-container">
+                            <h5 class="img-title">{{ $comic['series'] }}</h5> 
+                        </div>
+                    </a>
                 </div>
             @endforeach
         </div>
