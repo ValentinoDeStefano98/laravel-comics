@@ -8,18 +8,18 @@
   background-image: url(/images/jumbotron.jpg?9b3ac9ec673a8ec0c2c6eef1f6ea6bb4);
 }
 
-ul {
+.ul-header {
   display: flex;
   list-style-type: none;
 }
-ul li {
+.ul-header .header-li {
   padding: 0 10px;
 }
-ul li a {
+.ul-header .header-li a {
   text-decoration: none;
   padding: 5px;
 }
-ul li:hover {
+.ul-header .header-li:hover {
   background-color: lightblue;
 }
 
