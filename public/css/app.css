@@ -103,6 +103,12 @@ html {
 
 .main-bottom-container {
   background-color: #0082F9;
+  padding: 30px 0;
+}
+
+.main-bottom-card-container {
+  width: 80%;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -149,6 +155,14 @@ html {
   margin: 0 auto;
 }
 
+.logo-card {
+  max-width: 25%;
+}
+
+.spacing {
+  margin-left: 20px;
+}
+
 .ul-footer {
   list-style-type: none;
 }
@@ -158,13 +172,75 @@ html {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  padding: 40px 0;
+}
+
+.footer-row-container {
+  height: 400px;
+  overflow: hidden;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer-top-right {
   height: 400px;
+  overflow: hidden;
 }
 
 .footer-top-container {
+  background-image: url(/images/footer-bg.jpg?30a5c2238c63921788be216d1794abf7);
+}
+
+.right-logo {
+  max-width: 90%;
+  margin-top: -70px;
+}
+
+.list-title {
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.list {
+  padding-bottom: 20px;
+  padding-right: 20px;
+}
+
+.color-white {
+  color: grey;
+}
+
+.footer-bottom-container {
+  background-color: #000000;
+}
+
+.footer-bottom-row {
+  width: 80%;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.sign-up-button {
+  display: inline-block;
+  color: white;
+  background-color: transparent;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 2px solid #0282F9;
+}
+
+.follow-us {
+  color: #0282F9;
+  text-transform: uppercase;
+}
+
+.icon {
+  color: grey;
 }

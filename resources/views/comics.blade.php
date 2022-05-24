@@ -27,25 +27,27 @@
         </div>
     </div>
     <div class="main-bottom-container">
-        <div class="main-bottom-card">
-            <img src="{{ asset('images/buy-comics-digital-comics.png') }}" alt="Logo" class="logo">
-            <h3>Digital comics</h3>
-        </div>
-        <div class="main-bottom-card">
-            <img src="{{ asset('images/buy-comics-merchandise.png') }}" alt="Logo" class="logo">
-            <h3>DC Merchandise</h3>
-        </div>
-        <div class="main-bottom-card">
-            <img src="{{ asset('images/buy-comics-subscriptions.png') }}" alt="Logo" class="logo">
-            <h3>Subscriptions</h3>
-        </div>
-        <div class="main-bottom-card">
-            <img src="{{ asset('images/buy-comics-shop-locator.png') }}" alt="Logo" class="logo">
-            <h3>Comic shop locator</h3>
-        </div>
-        <div class="main-bottom-card">
-            <img src="{{ asset('images/buy-dc-power-visa.png') }}" alt="Logo" class="logo">
-            <h3>DC Power Visa</h3>
+        <div class="main-bottom-card-container">
+            <div class="main-bottom-card">
+                <img src="{{ asset('images/buy-comics-digital-comics.png') }}" alt="Logo" class="logo-card">
+                <h3 class="img-title spacing">Digital comics</h3>
+            </div>
+            <div class="main-bottom-card">
+                <img src="{{ asset('images/buy-comics-merchandise.png') }}" alt="Logo" class="logo-card">
+                <h3 class="img-title spacing">DC Merchandise</h3>
+            </div>
+            <div class="main-bottom-card">
+                <img src="{{ asset('images/buy-comics-subscriptions.png') }}" alt="Logo" class="logo-card">
+                <h3 class="img-title spacing">Subscriptions</h3>
+            </div>
+            <div class="main-bottom-card">
+                <img src="{{ asset('images/buy-comics-shop-locator.png') }}" alt="Logo" class="logo-card">
+                <h3 class="img-title spacing">Comic shop locator</h3>
+            </div>
+            <div class="main-bottom-card">
+                <img src="{{ asset('images/buy-dc-power-visa.png') }}" alt="Logo" class="logo-card">
+                <h3 class="img-title spacing">DC Power Visa</h3>
+            </div>
         </div>
     </div>
 @endsection
