@@ -12,11 +12,11 @@
             <h2 class="comics-title">{{ $singoloFumetto['title'] }}</h2>
             <div class="medium-container">
                 <div class="price-container">
-                    <span>U.S. Price: {{ $singoloFumetto['price'] }}</span>
-                    <span>Available</span>
+                    <span class="text-white">U.S. Price: {{ $singoloFumetto['price'] }}</span>
+                    <span class="text-white text-uppercase">Available</span>
                 </div>
                 <div class="availability-container">
-                    <span>Check Availability</span>
+                    <span class="text-white">Check Availability</span>
                 </div>
             </div>
             <p>{{ $singoloFumetto['description'] }}</p>
@@ -97,20 +97,23 @@
                 <hr>
             </div>
         </div>
-        <div>
-            <hr>
+        <div class="pre-footer-icons-big-container">
             <div class="pre-footer-icons-container">
-                <div>
+                <div class="border box-prefooter">
                     <h4>Digital comics</h4>
+                    <img src="{{ asset('images/buy-comics-digital-comics.png') }}" alt="Logo" class="pre-footer-img">
                 </div>
-                <div>
+                <div class="border box-prefooter">
                     <h4>Shop DC</h4>
+                    <img src="{{ asset('images/buy-comics-digital-comics.png') }}" alt="Logo" class="pre-footer-img">
                 </div>
-                <div>
+                <div class="border box-prefooter">
                     <h4>Comic Shop Locator</h4>
+                    <img src="{{ asset('images/buy-comics-digital-comics.png') }}" alt="Logo" class="pre-footer-img">
                 </div>
-                <div>
+                <div class="border box-prefooter">
                     <h4>Subscriptions</h4>
+                    <img src="{{ asset('images/buy-comics-digital-comics.png') }}" alt="Logo" class="pre-footer-img">
                 </div>
             </div>
         </div>

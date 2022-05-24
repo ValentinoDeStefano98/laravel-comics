@@ -23,18 +23,17 @@
     width: 60%;
     display: flex;
     justify-content: space-between;
-    padding: 10px 0;
+    padding: 10px;
     border-right: 1px solid black;
 }
 
 .medium-container{
-    
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid black;
     padding: 0 10px;
     margin-bottom: 10px;
-    background-color: green;
+    background-color: #54BA5A;
     
 }
 
@@ -45,10 +44,13 @@
 .comics-title{
     padding: 20px 0;
     text-transform: uppercase;
+    font-weight: bolder;
+    color: #153F67;
 }
 
 .availability-container{
     padding: 10px 0;
+
 }
 
 .adv-images{
@@ -65,20 +67,22 @@
 
 .artist-container{
     display: flex;
+    padding: 20px 0;
 }
 
 .spech-container{
     width: 65%;
     margin: 0 auto;
     display: flex;
+    justify-content: space-between;
 }
 
 .talent-container{
-    width: 50%;
+    width: 45%;
 }
 
 .specs-container{
-    width: 50%;
+    width: 45%;
 }
 
 .selector{
@@ -95,6 +99,12 @@
 .sale{
     display: flex;
     justify-content: space-between;
+    padding: 20px 0;
+}
+
+.pre-footer-icons-big-container{
+    border-top: 1px solid grey;
+    margin-top: 30px;
 }
 
 .pre-footer-icons-container{
@@ -102,4 +112,32 @@
     width: 65%;
     margin: 0 auto;
     justify-content: space-between;
+    
+}
+
+.text-white{
+    color: white;
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+.talent-spech-container{
+    background-color: #F6F6F6;
+    padding: 40px 0 0 0;
+}
+
+.border{
+    border: 1px solid grey;
+}
+
+.pre-footer-img{
+    width: 20%;
+}
+
+.box-prefooter{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: calc(100% / 4);
 }
