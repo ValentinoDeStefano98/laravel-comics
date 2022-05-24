@@ -1,9 +1,7 @@
-
 .row{
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-    width: 70%;
     .card{
         width: calc(100%/6);
         .img{
@@ -13,6 +11,10 @@
     }
 }
 
+.col{
+    margin-bottom: 25px;
+}
+
 .img-container{
         width: 150px;
         height: 150px;
@@ -20,8 +22,12 @@
         margin-bottom: 10px;
 }
 
+.title-container{
+    width: 150px;
+}
+
 .img-title{
-    color: gray;
+    color: white;
     text-transform: uppercase;
 }
 
@@ -36,4 +42,25 @@
     display: flex;
     align-items: center;
 }
+
+.comics-container{
+    background-color: #090E11;
+    padding: 40px 0;
+}
+
+.loadMore{
+    display: inline-block;
+    color: white;
+    background-color: #0282F9;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.bottomButtonContainer{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
 

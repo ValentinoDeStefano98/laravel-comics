@@ -3,16 +3,25 @@
 @section('title', 'Comics')
 
 @section('content')
-    <div class="row">
-        @foreach ($comic as $product)
-            <div class="col card">
-                <div class="img-container">
-                    <img src="{{$product['thumb']}}" alt="comic image" class="img">
+    
+    <div class="comics-container">
+        
+        <div class="row resize">
+            @foreach ($comic as $product)
+                <div class="col card">
+                    <div class="img-container">
+                        <img src="{{$product['thumb']}}" alt="comic image" class="img">
+                    </div>
+                    <div class="title-container">
+                        <h6 class="img-title">{{ $product['series'] }}</h6> 
+                    </div>
+                    
                 </div>
-                
-                <h6 class="img-title">{{ $product['series'] }}</h6> 
-            </div>
-        @endforeach
+            @endforeach
+        </div>
+        <div class="bottomButtonContainer">
+            <span class="loadMore">Load More</span>
+        </div>
     </div>
     <div class="main-bottom-container">
         <div class="main-bottom-card">
